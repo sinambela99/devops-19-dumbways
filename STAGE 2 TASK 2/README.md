@@ -26,3 +26,11 @@ Setelah server dibuat silahkan lakukan command pada linux shell
 22.  kemudian buat file secret
 23.  setelah itu jalankan cerbot
 24.  kemudian jalankan aplikasi
+
+    
+![1 hubungkan backend-frontend](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/09adf502-2fa0-4f73-8598-c48fa8e14972)
+![2 isi konfigurasi frontend backend](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/3146fd9f-d838-40a1-a4cf-55c792eda493)
+![3 membuat konfigurasi reverser proxy pada backend](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/9fa2398
+![4 config reverse backend](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/f874190c-6dee-4435-9749-7d1dadde1e56)
+f-25b5-4eb8-879a-dcfea7a1066a)
+![5_1 buat file konfigurasi cerbot cloudflare](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/a45b585f-710e-420a-9b5
