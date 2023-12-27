@@ -19,7 +19,7 @@ Setelah server dibuat silahkan lakukan command pada linux shell
 10. setelah itu pm2 init simple
 11. edit ecosysfile
 12. pm2 start ecosysfile
-13. test aoakah sudah berjalan
+13. test apakah aplikasi
 14. install nginx
 15. cd /etc/nginx
 16. sudo chown paul:paul *
