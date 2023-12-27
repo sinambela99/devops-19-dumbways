@@ -41,7 +41,9 @@ Setelah server dibuat silahkan lakukan command pada linux shell
 ```sql
 GRANT ALL PRIVILEGES ON *.* TO 'robo'@'%' with GRANT OPTION;
 ```
-
+```sh
+sudo apt update; sudo apt upgrade
+```
     
 ![1 hubungkan backend-frontend](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/09adf502-2fa0-4f73-8598-c48fa8e14972)
 
