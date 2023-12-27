@@ -1,4 +1,9 @@
-Langka langkah pembuatan vm pada bizznetgio 1.login 2.pada dashboard sebelah kiri klik compute dan pilih neo lite 3.klik create new 4.isi data sesuai keinginan termasuk versi OSnya dan klik next dan order lakukan pembayaran atau jika ada promo silahkan digunakan 5.setelah server dibuat maka lakukan ssh atau create new ssh
+Langka langkah pembuatan vm pada bizznetgio 
+1.login 
+2.pada dashboard sebelah kiri klik compute dan pilih neo lite 
+3.klik create new 
+4.isi data sesuai keinginan termasuk versi OSnya dan klik next dan order lakukan pembayaran atau jika ada promo silahkan digunakan 
+5.setelah server dibuat maka lakukan ssh atau create new ssh
 
 Setelah server dibuat silahkan lakukan command pada linux shell
 
@@ -17,16 +22,19 @@ Setelah server dibuat silahkan lakukan command pada linux shell
 13. install mysql dan lakukan secure installation
 14. buat user baru pada mysql CREATE USER 'nama_pengguna'@'%' IDENTIFIED BY 'password';
 15.  GRANT ALL PRIVILEGES ON *.* TO 'robo'@'%' with GRANT OPTION;
-16.  kemudian ubah konfigurasi pada backend untuk database
-17.  kemudian npm install
-18.  kemudian lakukan pm2 seperti biasa
-19.  kemudian masuk pada servere gateway
-20.  ubah konfigurasi frontend ke bakcend agar dapat terhubung
-21.  kemudian buat konfigurasi reverse backend
-22.  kemudian buat file secret yang isinya dns_cloudflare_email serta dns_cloudflare_api_key
-23.  install certbot dan jalankan perintah sudo ln -s /snap/bin/certbot /usr/bin/certbot agar certbot dapat diakses secara global
-24.  setelah itu jalankan certbot dan pilih domain yang mau dibuat sertifikat
-25.  kemudian jalankan aplikasi
+16.  sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+17.  ubah bind-addres dan mysqlx-bind-address menjadi 0.0.0.0
+18.  sudo systemctl restart mysql
+19.  kemudian ubah konfigurasi pada backend untuk database
+20.  kemudian npm install
+21.  kemudian lakukan pm2 seperti biasa
+22.  kemudian masuk pada servere gateway
+23.  ubah konfigurasi frontend ke bakcend agar dapat terhubung
+24.  kemudian buat konfigurasi reverse backend
+25.  kemudian buat file secret yang isinya dns_cloudflare_email serta dns_cloudflare_api_key
+26.  install certbot dan jalankan perintah sudo ln -s /snap/bin/certbot /usr/bin/certbot agar certbot dapat diakses secara global
+27.  setelah itu jalankan certbot dan pilih domain yang mau dibuat sertifikat
+28.  kemudian jalankan aplikasi
 
     
 ![1 hubungkan backend-frontend](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/09adf502-2fa0-4f73-8598-c48fa8e14972)
