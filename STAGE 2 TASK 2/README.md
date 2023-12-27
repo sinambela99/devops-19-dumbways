@@ -38,6 +38,10 @@ Setelah server dibuat silahkan lakukan command pada linux shell
 28.  setelah itu jalankan certbot dan pilih domain yang mau dibuat sertifikat
 29.  kemudian jalankan aplikasi
 
+```sql
+GRANT ALL PRIVILEGES ON *.* TO 'robo'@'%' with GRANT OPTION;
+```
+
     
 ![1 hubungkan backend-frontend](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/09adf502-2fa0-4f73-8598-c48fa8e14972)
 
