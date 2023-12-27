@@ -32,10 +32,11 @@ Setelah server dibuat silahkan lakukan command pada linux shell
 22.  kemudian masuk pada servere gateway
 23.  ubah konfigurasi frontend ke bakcend agar dapat terhubung
 24.  kemudian buat konfigurasi reverse backend
-25.  kemudian buat file secret yang isinya dns_cloudflare_email serta dns_cloudflare_api_key
-26.  install certbot dan jalankan perintah sudo ln -s /snap/bin/certbot /usr/bin/certbot agar certbot dapat diakses secara global
-27.  setelah itu jalankan certbot dan pilih domain yang mau dibuat sertifikat
-28.  kemudian jalankan aplikasi
+25.  login pada cloudflare dan buat dns record yang baru seperti api.ian.studentdumbways.my.id jangan lupa untuk membuat konfigurasnya menjadi dns only
+26.  kemudian buat file secret yang isinya dns_cloudflare_email serta dns_cloudflare_api_key
+27.  install certbot dan jalankan perintah sudo ln -s /snap/bin/certbot /usr/bin/certbot agar certbot dapat diakses secara global
+28.  setelah itu jalankan certbot dan pilih domain yang mau dibuat sertifikat
+29.  kemudian jalankan aplikasi
 
     
 ![1 hubungkan backend-frontend](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/09adf502-2fa0-4f73-8598-c48fa8e14972)
