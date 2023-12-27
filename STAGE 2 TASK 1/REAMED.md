@@ -1,9 +1,10 @@
 Langka langkah pembuatan vm pada bizznetgio
-1.login
-2.pada dashboard sebelah kiri klik compute dan pilih neo lite
-3.klik create new
-4.isi data sesuai keinginan termasuk versi OSnya dan klik next dan order lakukan pembayaran atau jika ada promo silahkan digunakan
-5.setelah server dibuat maka lakukan ssh atau create new ssh
+
+1. login
+2. pada dashboard sebelah kiri klik compute dan pilih neo lite
+3. klik create new
+4. isi data sesuai keinginan termasuk versi OSnya dan klik next dan order lakukan pembayaran atau jika ada promo silahkan digunakan
+5. setelah server dibuat maka lakukan ssh atau create new ssh
 
 Setelah server dibuat silahkan lakukan command pada linux shell
 1. lakukan ssh  pada server menggunakan ssh_key yang sudah di download seperti ssh -i ssh_key_1.pem ianpaulus@103.175.219.100
