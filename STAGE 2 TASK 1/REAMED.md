@@ -11,7 +11,7 @@ Setelah server dibuat silahkan lakukan command pada linux shell
 2. kemudian lakukan update&upgrade pada server
 3. kemudian buat user baru seperti adduser
 4. kemudian ubah user menjadi keluarga root seperti sudo usermod -aG sudo paul
-5. kemudian ubah konfigurasi sshdnya agar bisa melakukan remote ssh pada lokal kita seperti cd /etc/ssh kemudian sudo nano sshd_config.d ubah pubkeyauthen menjadi yes dan password atuh menjadi yes
+5. kemudian ubah konfigurasi sshdnya agar bisa melakukan remote ssh pada lokal kita seperti cd /etc/ssh kemudian sudo nano sshd_config.d ubah pubkeyauthen menjadi yes dan password auth menjadi yes
 6. restart sshdnya seperti sudo systemctl restart sshd
 7. git clone project frontendnya
 8. install nvm, install pm2
