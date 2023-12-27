@@ -42,7 +42,21 @@ Setelah server dibuat silahkan lakukan command pada linux shell
 ![1_10_2install nvm](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/da3d13db-2ebd-48dc-91ca-b87f2da264e1)
 ![1_10_2install nvm](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/63deab9d-daa5-47e7-9ba7-64aa3008
 ![1_11 install pm2](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/e4885670-5920-4d88-b436-b2d2a2e38543)
-vm](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/6ffb5b22-eb07-45f7-9aec-ab9971f7c1bf)
+![1_12 npm i pada file clone](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/f85dab4f-8c64-4acb-9286-1918c87c60e1)
+![1_13 pm2 init](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/cd92f64f-e24d-44ae-aea3-0f9d2f790db1)
+![1_14_2 hasil pengubahan config pada pm2 init](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/195fa213-1126-4d10-9d4a-4f10edcf007b)
+![1_14 ubah config untuk pm2](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/3674e696-b24a-4bcb-8150-17ccfc2da909)
+![1_15 hasil pm2 setelah di start](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/d04d2a04-7fd9-46ed-861a-d7b0b3f089c7)
+![1_16 install nginx](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/cb1dd2b9-92d8-400d-9dcd-3f7417caecd4)
+![1_17 masuk pada folder nginx](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/4ad53c43-d55f-4986-830b-611720fadae5)
+![1_18 buat direktori apps pada nginx](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/ba8f993d-6353-4353-bc8b-77792f568d45)
+![1_19 reverse proxy](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/39f0ce1d-66fa-4608-a11c-64da092eb4c0)
+![1_20 mengubah config nginx](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/e0d889f3-95f5-4a0d-a28b-5cad5a56f20d)
+![1_21 isi konfig](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/0350e00e-73ae-4bfd-a3e9-9f2baa3ebbfb)
+![1_22 memeriksa status nginx yang telah diubah konfig](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/1de0cebb-f533-4abb-825c-07887c998312)
+![1_23 reload nginx](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/edcfc3e5-473f-4955-b5bb-a0cf10149ca2)
+![1_24 hasil reverse proxy ](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/6969cd2a-2a7f-405e-b3fd-438c10a4c5c0)
+
 
 
 
