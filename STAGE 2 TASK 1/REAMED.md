@@ -28,4 +28,10 @@ Setelah server dibuat silahkan lakukan command pada linux shell
 20. tambahkan configuration include/etc/nginx/apps/*;
 21. cek status configurasinya sudo nginx -t
 22. sudo systemctl reload nginx
-23. coba buka aplikasi dengan domain 
+23. coba buka aplikasi dengan domain
+
+![1_1 remote_server_ssh](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/9709a879-2cd6-4a72-a733-6d45f44fcda5)
+![1_2](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/d6397bbc-87ca-4e7a-8de5-5c998dcf759f)
+
+
+    
