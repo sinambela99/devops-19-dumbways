@@ -20,7 +20,7 @@ Setelah server dibuat silahkan lakukan command pada linux shell
 16.  kemudian ubah konfigurasi pada backend untuk database
 17.  kemudian npm install
 18.  kemudian lakukan pm2 seperti biasa
-19.  kemudian masuk pada gateway
+19.  kemudian masuk pada servere gateway
 20.  ubah konfigurasi frontend ke bakcend agar dapat terhubung
 21.  kemudian buat konfigurasi reverse backend
 22.  kemudian buat file secret yang isinya dns_cloudflare_email serta dns_cloudflare_api_key
