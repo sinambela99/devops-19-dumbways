@@ -24,3 +24,6 @@ Melalui dashboard, dapat dilihat tren, pola, dan potensi masalah di lingkungan s
 ![Screenshot from 2024-01-15 04-04-05](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/17d37e6c-e983-4b09-adb7-58b20a24202b)
 
 ![Screenshot from 2024-01-15 04-04-33](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/e1ef36c8-9987-4766-92b3-fc3e8f078856)
+
+![Screenshot from 2024-01-15 04-06-53](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/8404e013-879a-4621-b1f9-c2d8f916b437)
+
