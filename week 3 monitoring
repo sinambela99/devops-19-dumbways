@@ -1,5 +1,4 @@
-```
-Monitoring server adalah proses memantau dan mengumpulkan data kinerja serta status sistem untuk memahami dan mengelola sumber daya dan kesehatan server dengan lebih efektif. 
+``` Monitoring server adalah proses memantau dan mengumpulkan data kinerja serta status sistem untuk memahami dan mengelola sumber daya dan kesehatan server dengan lebih efektif. 
 Grafana, Prometheus, dan Node Exporter adalah alat-alat populer yang digunakan bersama-sama untuk membangun sistem monitoring
 
 Cara menjalankan
@@ -9,8 +8,7 @@ Cara menjalankan
     - Pengguna membuat dashboard di Grafana dengan memilih metrik yang diambil dari Prometheus.
 
 Hasilnya adalah visualisasi waktu nyata yang memungkinkan tim IT untuk memantau dan menganalisis kinerja sistem secara efektif. 
-Melalui dashboard, dapat dilihat tren, pola, dan potensi masalah di lingkungan server.
-```
+Melalui dashboard, dapat dilihat tren, pola, dan potensi masalah di lingkungan server. ```
 
 ![Screenshot from 2024-01-15 03-55-14](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/8632e532-5a52-41d3-8e88-c86928666b63)
 
