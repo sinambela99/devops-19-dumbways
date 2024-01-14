@@ -1,0 +1,23 @@
+```
+Monitoring server adalah proses memantau dan mengumpulkan data kinerja serta status sistem untuk memahami dan mengelola sumber daya dan kesehatan server dengan lebih efektif. 
+Grafana, Prometheus, dan Node Exporter adalah alat-alat populer yang digunakan bersama-sama untuk membangun sistem monitoring
+
+Cara menjalankan
+    - Node Exporter diinstal dan dijalankan pada setiap server yang ingin dimonitor.
+    - Prometheus diatur untuk menyaring metrik dari Node Exporter dan menyimpannya dalam penyimpanan time series internal.
+    - Grafana dikonfigurasi untuk terhubung ke Prometheus sebagai sumber data.
+    - Pengguna membuat dashboard di Grafana dengan memilih metrik yang diambil dari Prometheus.
+
+Hasilnya adalah visualisasi waktu nyata yang memungkinkan tim IT untuk memantau dan menganalisis kinerja sistem secara efektif. 
+Melalui dashboard, dapat dilihat tren, pola, dan potensi masalah di lingkungan server.
+```
+
+![Screenshot from 2024-01-15 03-55-14](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/8632e532-5a52-41d3-8e88-c86928666b63)
+
+![Screenshot from 2024-01-15 03-55-38](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/11dcb72b-e94a-4dcb-8a99-bbcc374a8bb5)
+
+![Screenshot from 2024-01-15 03-55-49](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/1fe2d71e-2d21-43b0-843c-820021b53db7)
+
+![Screenshot from 2024-01-15 03-56-05](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/fcc8f334-afde-42b5-b8d4-6385bfba9b6c)
+
+![Screenshot from 2024-01-15 03-56-45](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/1dfdf366-1822-446a-8a2c-fee4eb825d50)
