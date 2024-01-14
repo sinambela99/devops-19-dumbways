@@ -47,3 +47,18 @@ Ringkasan Proses Ansible & ansible-playbook:
 
     Rekayasa Balik dan Revisi:
         Jika diperlukan, playbook dapat dimodifikasi, dan ansible-playbook dapat dijalankan kembali untuk menerapkan perubahan atau membalik perubahan sebelumnya.
+
+
+
+
+![Screenshot from 2024-01-15 04-13-18](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/0aad96ec-dfb4-44ac-9206-b7e234446dce)
+
+![Screenshot from 2024-01-15 04-15-15](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/4e689187-3df9-430c-bd7d-9311bfd0d1b7)
+
+![Screenshot from 2024-01-15 04-16-50](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/2958d34e-322b-4505-bdf1-8518de08021b)
+
+![Screenshot from 2024-01-15 04-17-09](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/246db752-1e1c-40d6-a177-9f81272f6ba6)
+
+
+
+
