@@ -25,7 +25,7 @@ Deploy Aplikasi MongoDB dengan StatefulSet dan PVC:
     Deploy StatefulSet MongoDB dengan merujuk ke PVC yang telah dibuat.
 
 Buat Database di MongoDB dan Isi Dummy Data:
-    Akses pod MongoDB: kubectl exec -it <mongodb-pod-name> -- /bin/bash
+    Akses pod MongoDB: kubectl exec -it <mongodb-pod-name>  /bin/bash -n namespace
     Masuk ke MongoDB shell: mongo
     Buat database dan isi dummy data.
 ```
