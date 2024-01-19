@@ -1,5 +1,6 @@
 ```
-Kubernetes adalah platform open-source untuk otomatisasi, deployment, scaling, dan operasional aplikasi kontainer. Ini memungkinkan manajemen aplikasi yang efisien dalam lingkungan kontainer.
+Kubernetes adalah platform open-source untuk otomatisasi, deployment, scaling, 
+dan operasional aplikasi kontainer. Ini memungkinkan manajemen aplikasi yang efisien dalam lingkungan kontainer.
 ```
 
 ```
