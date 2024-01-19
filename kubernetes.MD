@@ -29,3 +29,109 @@ Buat Database di MongoDB dan Isi Dummy Data:
     Masuk ke MongoDB shell: mongo
     Buat database dan isi dummy data.
 ```
+
+``` Helm ingress.yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ingress-nginx
+---
+apiVersion: helm.cattle.io/v1
+kind: HelmChart
+metadata:
+  name: ingress-nginx
+  namespace: ingress-nginx
+spec:
+  repo: https://kubernetes.github.io/ingress-nginx
+  chart: ingress-nginx
+  targetNamespace: ingress-nginx
+  valuesContent: |-
+    controller:
+      image:
+        tag: "v1.8.1"
+      service:
+        type: LoadBalancer
+```
+
+```nginx.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-app
+  namespace: appku
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: webserver
+        image: nginx:alpine
+        ports:
+        - containerPort: 80
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-app-service
+  namespace: appku
+spec:
+  selector:
+    app: nginx
+  ports:
+  - port: 80
+    targetPort: 80
+  type: NodePort
+
+---
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: nginx-app-ingress
+  namespace: appku
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - host: kubeian.studentdumbways.my.id
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: nginx-app-service
+            port: 
+              number: 80
+``` pv
+apiVersion: v1
+kind: Pod
+metadata:
+  name: volume-test
+  namespace: appku
+spec:
+  containers:
+  - name: volume-test
+    image: nginx:alpine
+    imagePullPolicy: Always
+    volumeMounts:
+    - name: vol 
+      mountPath: /data
+    ports:
+      - containerPort: 80
+  volumes:
+  - name: vol
+    persistentVolumeClaim:
+      claimName: local-path-pvc
+```
+
+![Screenshot from 2024-01-19 09-58-54](https://github.com/sinambela99/devops-19-dumbways/assets/80032508/329924bf-c1b5-4a2f-9d3b-d798892eb393)
