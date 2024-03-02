@@ -6,7 +6,7 @@
     Basic Network dan Basic Linux
     Fundamental Git
 
-#### Week 2
+#### [Week 2](https://github.com/sinambela99/devops-19-dumbways/tree/master/STAGE%202/WEEK%202)
 
         Fundamental teks editor, Manipulation teks, dan Fundamental Firewall
         Fundamental aplikasi dengan 3 bahasa pemrograman Go, Python, Node.js & implementasi PM2
