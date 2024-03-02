@@ -18,17 +18,17 @@
          Day-1 = deploy frontend with reverse-proxy
          Day-2 = deploy frontend, backend, dan database
 
-#### [Week 2] (https://github.com/sinambela99/devops-19-dumbways/tree/master/STAGE%202/WEEK%202)
+#### [Week 2](https://github.com/sinambela99/devops-19-dumbways/tree/master/STAGE%202/WEEK%202)
 
          Day-3 = deploy application on top docker
          Day-4 = do automation using jenkins
          Day-5 = do automation using gitlab
 
-#### [Week 3] (https://github.com/sinambela99/devops-19-dumbways/tree/master/STAGE%202/WEEK%203)
+#### [Week 3](https://github.com/sinambela99/devops-19-dumbways/tree/master/STAGE%202/WEEK%203)
 
          Day-6 = IAC using ansible
          Day-7 = monitoring using grafana, prometheus and node exporter
 
-#### [Week 4] (https://github.com/sinambela99/devops-19-dumbways/tree/master/STAGE%202/WEEK%204)
+#### [Week 4](https://github.com/sinambela99/devops-19-dumbways/tree/master/STAGE%202/WEEK%204)
 
          Day-8 = kubernetes
