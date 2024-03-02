@@ -13,7 +13,7 @@
         Fundamental Web Server, implementasi penggunaan Reverse Proxy dan Load Balancing pada aplikasi
 
 #### Stage 2
-#### [Week 1] (https://github.com/sinambela99/devops-19-dumbways/tree/master/STAGE%202/WEEK%201)
+#### [Week 1](https://github.com/sinambela99/devops-19-dumbways/tree/master/STAGE%202/WEEK%201)
 
          Day-1 = deploy frontend with reverse-proxy
          Day-2 = deploy frontend, backend, dan database
