@@ -1,4 +1,4 @@
-### BOOTCAMP DUMBWAYS DEVOPS ENGINEER BATCH 19
+
 #### Stage 1
 #### Week 1
 
